@@ -23,7 +23,7 @@ function Home() {
 
         <div className="flex justify-center">
           <img
-            src="https://i.imgur.com/fyfri1v.png"
+            src="https://media.discordapp.net/attachments/1478006777130909758/1504179478232961095/blog123.PNG?ex=6a060bcd&is=6a04ba4d&hm=ac8ff2d06936710b36e6db0acfbe15fb18f756e73a710d635dd58b89d5ff9aae&=&format=webp&quality=lossless&width=1376&height=917"
             alt="Imagem Página Home"
             className="w-2/3"
           />
