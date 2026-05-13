@@ -66,7 +66,7 @@ function Cadastro() {
       <div className="grid grid-cols-1 lg:grid-cols-2 h-screen 
             place-items-center font-bold">
         <div
-          className="bg-[url('https://i.imgur.com/ZZFAmzo.jpg')] lg:block hidden bg-no-repeat 
+          className="bg-[url('https://media.discordapp.net/attachments/1478006777130909758/1504179478232961095/blog123.PNG?ex=6a060bcd&is=6a04ba4d&hm=ac8ff2d06936710b36e6db0acfbe15fb18f756e73a710d635dd58b89d5ff9aae&=&format=webp&quality=lossless&width=1376&height=917')] lg:block hidden bg-no-repeat 
                     w-full min-h-screen bg-cover bg-center"
         ></div>
         <form className='flex justify-center items-center flex-col w-2/3 gap-3' 
