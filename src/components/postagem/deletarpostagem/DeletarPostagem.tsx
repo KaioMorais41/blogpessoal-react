@@ -4,6 +4,7 @@ import { AuthContext } from "../../../contexts/AuthContext";
 import type Postagem from "../../../models/Postagem";
 import { buscar, deletar } from "../../../services/Service";
 import { ClipLoader } from "react-spinners";
+import { Bounce, toast } from "react-toastify";
 
 function DeletarPostagem() {
   const navigate = useNavigate();
@@ -53,12 +54,32 @@ function DeletarPostagem() {
         },
       });
 
-      alert("Postagem apagada com sucesso");
+      toast.success("🐺 Postagem apagada com sucesso", {
+        position: "top-right",
+        autoClose: 5000,
+        hideProgressBar: false,
+        closeOnClick: false,
+        pauseOnHover: true,
+        draggable: true,
+        progress: undefined,
+        theme: "light",
+        transition: Bounce,
+      });
     } catch (error: any) {
       if (error.toString().includes("401")) {
         handleLogout();
       } else {
-        alert("Erro ao deletar a postagem.");
+        toast.error("🐺 Erro ao deletar a postagem.", {
+          position: "top-right",
+          autoClose: 5000,
+          hideProgressBar: false,
+          closeOnClick: false,
+          pauseOnHover: true,
+          draggable: true,
+          progress: undefined,
+          theme: "light",
+          transition: Bounce,
+        });
       }
     }
 
