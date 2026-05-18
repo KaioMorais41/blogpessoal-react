@@ -2,8 +2,6 @@ import { BrowserRouter, Route, Routes } from "react-router-dom";
 import Navbar from "./components/navbar/Navbar"
 import Footer from "./footer/Footer"
 import Home from "./pages/home/Home"
-import Login from "./pages/login/Login";
-import Cadastro from "./pages/cadastro/Cadastro";
 import { AuthProvider } from "./contexts/AuthContext";
 import ListaTemas from "./components/tema/listatemas/ListaTemas";
 import FormTema from "./components/tema/formtema/FormTema";
@@ -12,6 +10,8 @@ import ListaPostagens from "./components/postagem/listapostagens/ListaPostagens"
 import FormPostagem from "./components/postagem/formpostagem/FormPostagem";
 import DeletarPostagem from "./components/postagem/deletarpostagem/DeletarPostagem";
 import Perfil from "./pages/perfil/Perfil";
+import Login from "./pages/login/Login";
+import Cadastro from "./pages/cadastro/Cadastro";
 
 
 
